@@ -90,6 +90,8 @@ ARG APP_BUILD_DATE=
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
     curl \
+    fontconfig \
+    fonts-dejavu-core \
     git \
     libpq5 \
     supervisor \
