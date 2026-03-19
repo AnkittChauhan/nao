@@ -79,7 +79,7 @@ COPY cli ./cli
 
 # Install nao_core package and dependencies (non-editable for portability)
 WORKDIR /app/cli
-RUN uv pip install --system .
+RUN uv pip install --system '.[all]'
 
 # =============================================================================
 # STAGE 5: Runtime image
