@@ -3,6 +3,7 @@ import { authConfigRoutes } from './auth-config.routes';
 import { chartRoutes } from './chart.routes';
 import { chatRoutes } from './chat.routes';
 import { citationRoutes } from './citation.routes';
+import { contextExplorerRoutes } from './context-explorer.routes';
 import { feedbackRoutes } from './feedback.routes';
 import { logRoutes } from './log.routes';
 import { mcpRoutes } from './mcp.routes';
@@ -24,6 +25,7 @@ export const trpcRouter = router({
 	chat: chatRoutes,
 	sharedChat: sharedChatRoutes,
 	citation: citationRoutes,
+	contextExplorer: contextExplorerRoutes,
 	feedback: feedbackRoutes,
 	log: logRoutes,
 	posthog: posthogRoutes,
